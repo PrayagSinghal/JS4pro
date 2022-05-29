@@ -263,12 +263,12 @@ let queBackground = document.getElementById("question");
 function queMainfun() {
 
     let queFun1 = () => {
-        queBackground.style.background = "linear-gradient(45deg, rgba(87, 58, 250, 0.5) 0%, rgba(90, 58, 250, 0.5)100%), url(../Images/high2.jpg) center center no-repeat"
+        queBackground.style.background = "linear-gradient(45deg, rgba(87, 58, 250, 0.5) 0%, rgba(90, 58, 250, 0.5)100%),  url(../Images/portfolio-7.jpg) center center no-repeat"
     };
 
     setTimeout(queFun1, 2000);
     let queFun2 = () => {
-        queBackground.style.background = "linear-gradient(45deg, rgba(87, 58, 250, 0.5) 0%, rgba(90, 58, 250, 0.5)100%), url(../Images/High.jpg) center center no-repeat"
+        queBackground.style.background = "linear-gradient(45deg, rgba(87, 58, 250, 0.5) 0%, rgba(90, 58, 250, 0.5)100%), url(../Images/portfolio-8.jpg) center center no-repeat"
     };
     setTimeout(queFun2, 3000);
 
@@ -609,11 +609,11 @@ gsap.from('#text-portfolioP1', {
 })
 
 gsap.from('#text-contactP1', {
-    delay: 20,
+    delay: 17,
     duration: 7.5,
     scale: 2,
     opacity: 0,
 })
 
-gsap.from("#contact-part2", { duration: 8.5, delay: 21, ease: "elastic.out(1, 0.3)", y: -500 });
+gsap.from("#contact-part2", { duration: 8.5, delay: 19, ease: "elastic.out(1, 0.3)", y: -500 });
 // }

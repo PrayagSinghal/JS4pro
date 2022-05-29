@@ -25,6 +25,7 @@
 
 #main-divLoader {
     position: relative;
+    z-index: 10;
     height: 35%;
     width: 20%;
     display: grid;
@@ -35,11 +36,10 @@
     height: 40vh;
     width: 20vw;
     border-radius: 50%;
-    border-right: 5px solid rgb(255, 255, 255);
-    animation: roll 2s linear infinite;
 }
 
 #loader-heading {
+    animation: roll 2s linear infinite;
     position: fixed;
     color: rgb(255, 255, 255);
 }
