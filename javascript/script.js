@@ -1,10 +1,10 @@
 // Loader...
 
-let loader = document.getElementById('loader-display');
+// let loader = document.getElementById('loader-display');
 
-function myLoader() {
-    loader.style.display = 'none';
-}
+// function myLoader() {
+//     loader.style.display = 'none';
+// }
 
 // NavBar....
 
