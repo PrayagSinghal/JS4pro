@@ -1027,14 +1027,14 @@ body {
     #portfolio-part1 {
         margin-top: 3rem;
     }
-    .img-fluid {
-        max-width: 40vw;
-        height: auto;
-    }
     #portfolio-part2 {
         display: grid;
         grid-template-columns: auto auto;
         margin-bottom: 0rem;
+    }
+    .img-portfolioP2 {
+        height: 20vh!important;
+        max-width: 40vw!important;
     }
     #question {
         margin: 0%;
