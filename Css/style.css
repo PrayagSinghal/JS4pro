@@ -626,7 +626,7 @@ body {
 /* Ouestions */
 
 #question {
-    background: linear-gradient(45deg, rgba(87, 58, 250, 0.5) 0%, rgba(90, 58, 250, 0.5)100%), url(../Images/question-bg-\ \(1\).jpg) center center no-repeat;
+    background: linear-gradient(45deg, rgba(87, 58, 250, 0.8) 0%, rgba(90, 58, 250, 0.8)100%), url(../Images/question-bg-\ \(1\).jpg) center center no-repeat;
     height: 80vh;
     width: 100%;
 }
@@ -943,6 +943,9 @@ body {
         padding-top: 2rem;
         text-align: center;
     }
+    #mainImage-home {
+        height: 50vh;
+    }
     #background {
         height: 140vh;
     }
@@ -964,10 +967,16 @@ body {
     }
     #about2 {
         padding-top: 2rem;
+        height: 20vh;
+        margin-right: 0rem;
+        margin-left: 0rem;
     }
     .p-about2 {
         margin-bottom: 0rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+    .span-about2 {
+        font-size: 0.8rem;
     }
     #counter-about2 {
         padding: 0rem;
@@ -985,7 +994,7 @@ body {
         font-size: 1.3rem;
     }
     .p-iconBox {
-        font-size: 0.8rem;
+        display: none;
     }
     .box-serviceP2 {
         overflow: hidden;
@@ -1002,6 +1011,7 @@ body {
         width: 85vw;
         height: 27vh;
         margin-bottom: 5rem;
+        font-size: 0.8rem;
     }
     #div1-testimoniaP2,
     #div2-testimoniaP2,
@@ -1017,10 +1027,25 @@ body {
     #portfolio-part1 {
         margin-top: 3rem;
     }
+    .img-fluid {
+        max-width: 40vw;
+        height: auto;
+    }
     #portfolio-part2 {
         display: grid;
         grid-template-columns: auto auto;
         margin-bottom: 0rem;
+    }
+    #question {
+        margin: 0%;
+    }
+    #span-oustion {
+        font-size: 0.8rem!important;
+        font-weight: 700;
+    }
+    .span-oustion {
+        font-size: 0.8rem!important;
+        font-weight: 700;
     }
     #text-question {
         margin-top: 2rem;
@@ -1033,7 +1058,7 @@ body {
     }
     .accordion-button {
         height: 15px!important;
-        width: 90vw;
+        width: 85vw;
     }
     #contact-part1 {
         padding-top: 2rem;

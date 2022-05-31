@@ -1,10 +1,13 @@
 // Loader...
 
-// let loader = document.getElementById('loader-display');
+let loader = document.getElementById('loader-display');
 
-// function myLoader() {
-//     loader.style.display = 'none';
-// }
+function myLoader() {
+    loader.style.display = 'none';
+};
+
+
+
 
 // NavBar....
 
@@ -263,17 +266,17 @@ let queBackground = document.getElementById("question");
 function queMainfun() {
 
     let queFun1 = () => {
-        queBackground.style.background = "linear-gradient(45deg, rgba(87, 58, 250, 0.5) 0%, rgba(90, 58, 250, 0.5)100%),  url(../Images/question-bg-\ \(2\).jpg) center center no-repeat"
+        queBackground.style.background = "linear-gradient(45deg, rgba(87, 58, 250, 0.8) 0%, rgba(90, 58, 250, 0.8)100%),  url(../Images/question-bg-\ \(2\).jpg) center center no-repeat"
     };
 
     setTimeout(queFun1, 2000);
     let queFun2 = () => {
-        queBackground.style.background = "linear-gradient(45deg, rgba(87, 58, 250, 0.5) 0%, rgba(90, 58, 250, 0.5)100%), url(../Images/question-bg-\ \(3\).jpg) center center no-repeat"
+        queBackground.style.background = "linear-gradient(45deg, rgba(87, 58, 250, 0.8) 0%, rgba(90, 58, 250, 0.8)100%), url(../Images/question-bg-\ \(3\).jpg) center center no-repeat"
     };
     setTimeout(queFun2, 3000);
 
     let queFun3 = () => {
-        queBackground.style.background = "linear-gradient(45deg, rgba(87, 58, 250, 0.5) 0%, rgba(90, 58, 250, 0.5)100%), url(../Images/question-bg-\ \(1\).jpg) center center no-repeat"
+        queBackground.style.background = "linear-gradient(45deg, rgba(87, 58, 250, 0.8) 0%, rgba(90, 58, 250, 0.8)100%), url(../Images/question-bg-\ \(1\).jpg) center center no-repeat"
     };
     setTimeout(queFun3, 4000);
 };
