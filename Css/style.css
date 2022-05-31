@@ -626,7 +626,7 @@ body {
 /* Ouestions */
 
 #question {
-    background: linear-gradient(45deg, rgba(87, 58, 250, 0.5) 0%, rgba(90, 58, 250, 0.5)100%), url(../Images/portfolio-2-min.jpg) center center no-repeat;
+    background: linear-gradient(45deg, rgba(87, 58, 250, 0.5) 0%, rgba(90, 58, 250, 0.5)100%), url(../Images/question-bg-\ \(1\).jpg) center center no-repeat;
     height: 80vh;
     width: 100%;
 }
